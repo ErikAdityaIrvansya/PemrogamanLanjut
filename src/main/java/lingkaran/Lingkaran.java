@@ -11,8 +11,8 @@ package lingkaran;
 public class Lingkaran {
     private final double PI = 3.141592;
     
-    public double hitungLuas(double r){
-        return PI * r * r;
+    public void hitungLuas(double r){
+        double luas = PI * r * r;
 
         System.out.println("Luas lingkaran (pecahan): " + luas);              
         System.out.println("Luas lingkaran (bilangan bulat): " + (int) luas); 
