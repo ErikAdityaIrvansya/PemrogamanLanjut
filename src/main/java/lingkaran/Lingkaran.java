@@ -9,9 +9,13 @@ package lingkaran;
  * @author Sen
  */
 public class Lingkaran {
-    private double PI = 3.141592;
+    private final double PI = 3.141592;
     
     public double hitungLuas(double r){
         return PI * r * r;
+
+        System.out.println("Luas lingkaran (pecahan): " + luas);              
+        System.out.println("Luas lingkaran (bilangan bulat): " + (int) luas); 
+        System.out.println("Luas lingkaran (pembulatan): " + Math.round(luas));
     }
 }
